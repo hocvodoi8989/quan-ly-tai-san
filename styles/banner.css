@@ -1,0 +1,86 @@
+.banner {
+    
+    height: 657px;
+    padding-top: 52px;
+    background: var(--primary-color);
+}
+
+.banner__container {
+    display: flex;
+}
+
+.banner__content {
+    width: 50%;
+    color: var(--white-color);
+    padding: 168px 112px 244px 86px;
+}
+
+
+.banner__heading {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.banner__title {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.banner__btn {
+    margin-top: 40px;
+    width: 172px;
+    height: 42px;
+    background-color: var(--white-color);
+    border-radius: 40px;
+    box-shadow: -5px 8px 12px 0px #333;
+}
+
+.banner__btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--primary-color);
+}
+
+.banner__img {
+    position: relative;
+    
+    width: 50%;
+}
+
+.banner__img-banner {
+    width: 557px;
+    height: 453px;
+    margin-right: 86px;
+    margin-top: 74px;
+}
+
+.banner__img-skype {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    bottom: 51px;
+    right: 29px;
+}
+
+.banner__chat {
+    position: absolute;
+    width: 254px;
+    height: 36px;
+    background-color: #76B51B;
+    border-radius: 8px 8px 0 0;
+    bottom: 0;
+    right: 14px;
+}
+
+.banner__chat p {
+    font-size: 16px;
+    color: var(--white-color);
+    text-align: left;
+    padding-left: 12px;
+    line-height: 36px;
+}
+

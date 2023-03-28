@@ -1,0 +1,21 @@
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: var(--text-color);
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 964px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 15px;
+}
